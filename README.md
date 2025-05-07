@@ -17,7 +17,7 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ros2 launch slam_toolbox online_async_launch.py
 ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
 ```
-## saving Map :
+## Saving map :
 ```
 ros2 run nav2_map_server map_saver_cli -f map1 #save in folder pgm as map1.pgm (in the directory of the instruction or ~/..) 
 ```
