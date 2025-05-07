@@ -21,4 +21,5 @@ ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
 ```
 ros2 run nav2_map_server map_saver_cli -f map1 #save in folder pgm as map1.pgm (in the directory of the instruction or ~/..) 
 ```
+### Example :
 ![map1](https://github.com/user-attachments/assets/59c593bc-0437-4e28-8e56-29a791d91dda)
